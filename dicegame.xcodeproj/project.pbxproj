@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF7649A62A590A630080AD31 /* 주사위게임.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "주사위게임.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7649A62A590A630080AD31 /* dicegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dicegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7649A92A590A630080AD31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF7649AB2A590A630080AD31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF7649AD2A590A630080AD31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		AF76499D2A590A630080AD31 = {
 			isa = PBXGroup;
 			children = (
-				AF7649A82A590A630080AD31 /* 주사위게임 */,
+				AF7649A82A590A630080AD31 /* dicegame */,
 				AF7649A72A590A630080AD31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		AF7649A72A590A630080AD31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF7649A62A590A630080AD31 /* 주사위게임.app */,
+				AF7649A62A590A630080AD31 /* dicegame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF7649A82A590A630080AD31 /* 주사위게임 */ = {
+		AF7649A82A590A630080AD31 /* dicegame */ = {
 			isa = PBXGroup;
 			children = (
 				AF7649A92A590A630080AD31 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				AF7649B42A590A640080AD31 /* LaunchScreen.storyboard */,
 				AF7649B72A590A640080AD31 /* Info.plist */,
 			);
-			path = "주사위게임";
+			path = dicegame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF7649A52A590A630080AD31 /* 주사위게임 */ = {
+		AF7649A52A590A630080AD31 /* dicegame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF7649BA2A590A640080AD31 /* Build configuration list for PBXNativeTarget "주사위게임" */;
+			buildConfigurationList = AF7649BA2A590A640080AD31 /* Build configuration list for PBXNativeTarget "dicegame" */;
 			buildPhases = (
 				AF7649A22A590A630080AD31 /* Sources */,
 				AF7649A32A590A630080AD31 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "주사위게임";
+			name = dicegame;
 			productName = "주사위게임";
-			productReference = AF7649A62A590A630080AD31 /* 주사위게임.app */;
+			productReference = AF7649A62A590A630080AD31 /* dicegame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF7649A12A590A630080AD31 /* Build configuration list for PBXProject "주사위게임" */;
+			buildConfigurationList = AF7649A12A590A630080AD31 /* Build configuration list for PBXProject "dicegame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF7649A52A590A630080AD31 /* 주사위게임 */,
+				AF7649A52A590A630080AD31 /* dicegame */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "주사위게임/Info.plist";
+				INFOPLIST_FILE = dicegame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "주사위게임/Info.plist";
+				INFOPLIST_FILE = dicegame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF7649A12A590A630080AD31 /* Build configuration list for PBXProject "주사위게임" */ = {
+		AF7649A12A590A630080AD31 /* Build configuration list for PBXProject "dicegame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF7649B82A590A640080AD31 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF7649BA2A590A640080AD31 /* Build configuration list for PBXNativeTarget "주사위게임" */ = {
+		AF7649BA2A590A640080AD31 /* Build configuration list for PBXNativeTarget "dicegame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF7649BB2A590A640080AD31 /* Debug */,
